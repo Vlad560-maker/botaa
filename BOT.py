@@ -1,6 +1,6 @@
 import discord
 from discord.ext import commands
-import oC
+import os
 
 prefix = '!'
 
@@ -63,6 +63,4 @@ async def info(ctx, user: discord.User):
     await Bot.say(embed= emb)
     await Bot.delete_message(ctx.message)
 
-token = os.environ.get('BOT_TOKEN')
-
-bot.run(str(token))
+bot.run("NjY5ODE4MDg4MTExMjEwNTA2.XjMKzw.Vujtvnlp8kd1rbXHBF1Viu7Dlqs")
