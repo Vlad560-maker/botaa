@@ -64,3 +64,5 @@ async def info(ctx, user: discord.User):
     await Bot.delete_message(ctx.message)
 
 token = os.environ.get('BOT_TOKEN')
+
+bot.run(str(token))
